@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Gallery</title>
+    <style>
+        /* Center the images and captions */
+        .image-container {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adds space between images */
+            flex-wrap: wrap; /* Makes sure they wrap to the next line if needed */
+        }
+        
+        .image-container figure {
+            margin: 0; /* Removes default margin */
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 300px;
+        }
+
+        /* Style for the caption */
+        figcaption {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Car Gallery</h1>
+    <div class="image-container">
+        <figure>
+            <img src="car.jpg" alt="Ferrari">
+            <figcaption>FERRARI</figcaption>
+        </figure>
+        <figure>
+            <img src="car2.jpg" alt="Corvette">
+            <figcaption>CORVETTE</figcaption>
+        </figure>
+        <figure>
+            <img src="car4k.jpg" alt="McLaren">
+            <figcaption>MCLAREN</figcaption>
+        </figure>
+        <figure>
+            <img src="car6.jpg" alt="Bugatti">
+            <figcaption>BUGATTI</figcaption>
+        </figure>
+    </div>
+    <h3 style="text-align: center;">NEW CARS COMING SOON...</h3>
+</body>
+</html>
